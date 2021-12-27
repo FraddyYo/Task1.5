@@ -6,7 +6,8 @@ public class Main {
 	// write your code here
         float salaryMaria = 67760;
         byte yearsMaria = 12;
-        float increaseMaria = (salaryMaria / 100) * 10;
+        float percentage1 = (10/100F);
+        float increaseMaria = salaryMaria * percentage1;
         System.out.println( increaseMaria );
         float newSalaryMaria =(salaryMaria + increaseMaria);
         System.out.println("Маша теперь получает " + newSalaryMaria + " рублей");
@@ -19,7 +20,8 @@ public class Main {
 
         float salaryDenis = 83690;
         byte yearsDenis = 12;
-        float increaseDenis = (salaryDenis / 100) * 10;
+        float procentage2 = (10/100F);
+        float increaseDenis = salaryDenis * procentage2;
         System.out.println(increaseDenis);
         float newSalaryDenis = (salaryDenis + increaseDenis);
         System.out.println("Денис теперь получает " + newSalaryDenis + "рублей");
@@ -32,7 +34,8 @@ public class Main {
 
         float salaryKristina = 76230;
         byte yearsKristina = 12;
-        float increaseKristina = (salaryKristina / 100) * 10;
+        float procentage3 = (10/100F);
+        float increaseKristina = salaryKristina * procentage3;
         System.out.println(increaseKristina);
         float newSalaryKristina = (salaryKristina + increaseKristina);
         System.out.println("Кристина теперь получает " + newSalaryKristina + "рублей");
